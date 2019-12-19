@@ -1,0 +1,13 @@
+<h1><%= @restaurant_object.name %></h1>
+
+<ul>
+  <li><%= @restaurant_object.address %></li>
+  <li><%= @restaurant_object.description %></li>
+  <li><a href="<%=@restaurant_object.url%>"><%= @restaurant_object.url %></a></li>
+</ul>
+<img src="<%= @restaurant_object.image %>" alt="Restaurant Image">
+
+
+<a class="back" href="/">Back to All Brunch Spots</a>
+<br/>
+<a class="back" href="/restaurants/new">Add a New Brunch Spot</a>
